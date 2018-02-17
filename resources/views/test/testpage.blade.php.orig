@@ -1,0 +1,20 @@
+@extends('layouts.master')
+@section('content')
+
+<<<<<<< HEAD
+@section('content')
+@foreach($test as $test)
+ {{$test}}
+    @endforeach
+
+@endsection
+=======
+@foreach($test as $test)
+ {{$test}}
+    @endforeach
+<div id="addtrain">
+    @include('masterAdminPages.addStation')
+</div>
+>>>>>>> 8303348886396b0ea8bf2180dab4eb05268c076b
+
+    @endsection
